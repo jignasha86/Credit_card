@@ -1,0 +1,36 @@
+body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #414141;
+}
+h3{
+    color: #000;
+}
+.form-price {
+    width:20%;
+}
+.form-currency {
+    width:50%;
+}
+
+.modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('http://i.stack.imgur.com/FhHRx.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+body.loading {
+    overflow: hidden;   
+}
+
+body.loading .modal {
+    display: block;
+}
